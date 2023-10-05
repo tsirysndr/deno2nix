@@ -32,7 +32,7 @@
   compileCmd = concatStringsSep " " (
     [
       "deno compile --cached-only"
-      "--allow-env"
+      "--allow-all"
       "--lock=${lockfile}"
       "--output=${bin}"
       # "--config=${config}"
