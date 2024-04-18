@@ -31,7 +31,7 @@
 
   compileCmd = concatStringsSep " " (
     [
-      "deno compile --cached-only"
+      "deno compile "
       "--unstable"
       "--allow-all"
       "--lock=${lockfile}"
